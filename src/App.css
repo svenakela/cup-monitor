@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.cuplogo {
+  animation: App-logo-spin infinite 60s linear;
+  width: 15%;
+  display: flex;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.game-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+}
+
+.activeView .game-container {
+  background-color: green;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.views .game-container:first-child {
+  background-color: #ffc600;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.views .game-container:nth-child(2) {
+  background-color: rgb(124, 124, 124);
+  color: rgb(211, 211, 211);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.views .game-container:nth-child(3) {
+  background-color: rgb(40, 40, 40);
+  color: rgb(141, 141, 141);
+}
+
+.game-item {
+  display: block;
+  flex-basis: auto;
+  align-self: auto;
+  width: 20%;
+}
+
+.flex-item {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.game-details-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+}
+
+.game-details {
+  font-size:calc(3vw);
+  padding: 0.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.logo {
+  width: 12vw;
+}
+
+.game-details img {
+  max-width:100%;
+  max-height:100%;
+}
+
+.team-data {
+  width: 50%;
+}
