@@ -53,13 +53,14 @@ export default function GameSchedule() {
 
   useEffect(() => {
     fetchSchedule()
+    setInterval(fetchSchedule, 5*60_000);
   }, [])
-
+  
   useEffect(() => {
     loadTeams()
+    setInterval(loadTeams, 60_000);
   }, [schedule])
-
-  setInterval(fetchSchedule, 5000);
+  
 
   return (
     <React.Suspense fallback="Loading views...">
