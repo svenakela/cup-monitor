@@ -59,7 +59,7 @@ export default function GameSchedule() {
     loadTeams()
   }, [schedule])
 
-  setInterval(fetchSchedule, 5_000);
+  setInterval(fetchSchedule, 5000);
 
   return (
     <React.Suspense fallback="Loading views...">
