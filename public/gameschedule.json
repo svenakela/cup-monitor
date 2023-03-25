@@ -45,11 +45,21 @@
   },
   {
     "startTime": "2023-03-25T16:20:00",
-    "home": "Slutspel",
-    "away": "Slutspel"
+    "home": "Lidingö",
+    "away": "Sollentuna"
   },
   {
     "startTime": "2023-03-25T17:20:00",
+    "home": "Slutspel",
+    "away": "Sala"
+  },
+  {
+    "startTime": "2023-03-25T18:20:00",
+    "home": "Järfälla",
+    "away": "Slutspel"
+  },
+  {
+    "startTime": "2023-03-25T19:20:00",
     "home": "Slutspel",
     "away": "Slutspel"
   }
