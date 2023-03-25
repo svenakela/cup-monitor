@@ -1,57 +1,52 @@
-[  
-  {
-    "startTime": "2023-03-26T08:00:00",
-    "home": "Mälarö",
-    "away": "Mälarö"
-  },
+[ 
   {
     "startTime": "2023-03-26T09:00:00",
-    "home": "Österåker",
+    "home": "Mälarö",
     "away": "Lidingö"
-  },
+  }, 
   {
     "startTime": "2023-03-26T10:00:00",
-    "home": "Järfälla",
-    "away": "Sollentuna"
+    "home": "Tyresö",
+    "away": "Flemingsberg"
   },
   {
     "startTime": "2023-03-26T11:00:00",
-    "home": "Lidingö",
-    "away": "Sala"
+    "home": "Mälarö",
+    "away": "Flemingsberg"
   },
   {
     "startTime": "2023-03-26T12:00:00",
-    "home": "Mälarö",
-    "away": "Sollentuna"
+    "home": "Lidingö",
+    "away": "Tyresö"
   },
   {
     "startTime": "2023-03-26T13:00:00",
-    "home": "Sala",
-    "away": "Österåker"
+    "home": "Mälarö",
+    "away": "Tyresö"
   },
   {
     "startTime": "2023-03-26T14:00:00",
-    "home": "Järfälla",
+    "home": "Flemingsberg",
     "away": "Lidingö"
   },
   { "_comment_": "1an mot 4an",
-    "startTime": "2023-03-26T16:00:00",
-    "home": "Österåker",
-    "away": "Mälarö"
+    "startTime": "2023-03-26T06:00:00",
+    "home": "Ettan",
+    "away": "Fyran"
   },
   { "_comment_": "2an mot 3an",
-    "startTime": "2023-03-26T17:00:00",
-    "home": "Lidingö",
-    "away": "Sollentuna"
+    "startTime": "2023-03-26T07:00:00",
+    "home": "Tvåan",
+    "away": "Trean"
   },
   { "_comment_": "bronsmatch",
     "startTime": "2023-03-26T18:00:00",
-    "home": "Mälarö",
-    "away": "Sala"
+    "home": "Brons",
+    "away": "Brons"
   },
   { "_comment_": "final",
     "startTime": "2023-03-26T19:00:00",
-    "home": "Järfälla",
-    "away": "Österåker"
+    "home": "Final",
+    "away": "Final"
   }
 ]
