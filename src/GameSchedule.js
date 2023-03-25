@@ -28,7 +28,7 @@ export default function GameSchedule() {
     const activePromise = schedule
       .filter((game) => {
         let ts = new Date(game.startTime) 
-        return ts < now && now < ts.setHours(ts.getHours() + 1)
+        return ts < now && now < ts.setMinutes(ts.getMinutes() + 50)
       })
       .slice(0, 1)
       .map(getGame)
@@ -59,8 +59,7 @@ export default function GameSchedule() {
     loadTeams()
   }, [schedule])
 
-  setInterval(fetchSchedule, 10 * 60_000);
-  setInterval(loadTeams, 60_000);
+  setInterval(fetchSchedule, 5_000);
 
   return (
     <React.Suspense fallback="Loading views...">
