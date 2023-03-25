@@ -1,71 +1,52 @@
-[  {
-    "startTime": "2021-05-25T08:00:00",
-    "home": "old game",
-    "away": "old game"
-  },
+[  
   {
-    "startTime": "2023-03-25T08:00:00",
-    "home": "Mälarö",
-    "away": "Järfälla"
-  },
-  {
-    "startTime": "2023-03-25T09:00:00",
+    "startTime": "2023-03-26T09:00:00",
     "home": "Österåker",
     "away": "Lidingö"
   },
   {
-    "startTime": "2023-03-25T10:00:00",
+    "startTime": "2023-03-26T10:00:00",
     "home": "Järfälla",
     "away": "Sollentuna"
   },
   {
-    "startTime": "2023-03-25T11:00:00",
+    "startTime": "2023-03-26T11:00:00",
     "home": "Lidingö",
     "away": "Sala"
   },
   {
-    "startTime": "2023-03-25T12:00:00",
+    "startTime": "2023-03-26T12:00:00",
     "home": "Mälarö",
     "away": "Sollentuna"
   },
   {
-    "startTime": "2023-03-25T13:00:00",
+    "startTime": "2023-03-26T13:00:00",
     "home": "Sala",
     "away": "Österåker"
   },
   {
-    "startTime": "2023-03-25T14:20:00",
+    "startTime": "2023-03-26T14:00:00",
     "home": "Järfälla",
     "away": "Lidingö"
   },
-  {
-    "startTime": "2023-03-25T15:20:00",
+  { "_comment_": "1an mot 4an",
+    "startTime": "2023-03-26T16:00:00",
     "home": "Österåker",
     "away": "Mälarö"
   },
-  {
-    "startTime": "2023-03-25T16:20:00",
+  { "_comment_": "2an mot 3an",
+    "startTime": "2023-03-26T17:00:00",
     "home": "Lidingö",
     "away": "Sollentuna"
   },
-  {
-    "startTime": "2023-03-25T17:40:00",
+  { "_comment_": "bronsmatch",
+    "startTime": "2023-03-26T18:00:00",
     "home": "Mälarö",
     "away": "Sala"
   },
-  {
-    "startTime": "2023-03-25T19:00:00",
+  { "_comment_": "final",
+    "startTime": "2023-03-26T19:00:00",
     "home": "Järfälla",
     "away": "Österåker"
-  },
-  {
-    "startTime": "2023-03-25T20:00:00",
-    "home": "Sollentuna",
-    "away": "Mälarö"
-  },
-  {
-    "startTime": "2023-03-25T21:00:00",
-    "home": "Lidingö",
-    "away": "Sala"
   }
 ]
