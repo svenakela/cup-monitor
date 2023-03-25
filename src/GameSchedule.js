@@ -28,7 +28,7 @@ export default function GameSchedule() {
     const activePromise = schedule
       .filter((game) => {
         let ts = new Date(game.startTime) 
-        return ts < now && now < ts.setMinutes(ts.getMinutes() + 50)
+        return ts < now && now < ts.setMinutes(ts.getMinutes() + 59)
       })
       .slice(0, 1)
       .map(getGame)
